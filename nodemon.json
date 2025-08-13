@@ -1,0 +1,9 @@
+{
+  "watch": ["app.js", "rag.js", "embeddings.js"],
+  "ext": "js,json",
+  "ignore": ["node_modules/", "uploads/", "lancedb/"],
+  "exec": "node app.js",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
